@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    background-color: rgb(252, 233, 208);
+}
+
+.header-logo{
+    width: 100vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    /* margin: 10px; */
+}
+
+.header-logo img{
+    width: 380px;
+    height: 115px;
+}
+
+.nav{
+    height: 10vh;
+    width: 97vw;
+    margin: 30px 20px;
+} 
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav ul li{
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline rgb(126, 9, 9) 3px;
+    cursor: pointer;
+
+}
+
+.ads{
+    height: 30vh;
+    width: 100vw;
+    /* border: 2px solid green; */
+    position: relative;
+    background-image: url('images/BakedChickenWings.jpg');
+    background-size: cover;
+}
+
+.ads .black{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.ads .black h1{
+    color: aliceblue;
+    position: absolute;
+    top: 15px;
+    font-size: 35px;
+    margin: 0px 20px;
+    font-family: 'poppins';
+
+}
+
+.ads .black p{
+    color: aliceblue;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'poppins';
+    top: 80px;
+    margin: 0px 20px;
+}
+
+.cards{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 5px;
+    margin: 20px;
+    gap: 30px;
+    background-color: rgb(247, 195, 117);
+    border-radius: 30px;
+}
+
+.menu h3{
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: dashed underline rgb(138, 2, 2) 3px;
+}
+
+.menu img{
+    height: 200px;
+    width: 200px;
+}
+
+.menu p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 5px;
+    margin: 20px;
+    gap: 30px;
+    background-color: rgb(247, 195, 117);
+    border-radius: 30px;
+}
+
+.book h3{
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: dashed underline rgb(138, 2, 2) 3px;
+}
+
+.book img{
+    height: 200px;
+    width: 200px;
+}
+
+.book p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.timing{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 5px;
+    margin: 20px;
+    gap: 30px;
+    background-color: rgb(247, 195, 117);
+    border-radius: 30px;
+}
+
+.timing h3{
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: dashed underline rgb(138, 2, 2) 3px;
+}
+
+.timing img{
+    height: 200px;
+    width: 200px;
+}
+
+.timing p{
+    font-size: 15px;
+    font-weight: 500;
+}
